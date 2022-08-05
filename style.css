@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    font-family: Averta, sans-serif
+}
+body{
+    margin: 0;
+    width: 100%;
+color: #514949;
+}
+
+/* header */
+header{
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-img{
+    display: flex;
+    height: max-content;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.hero-sect{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+h2{
+    color: #514949;
+    margin-bottom: 25px;
+}
+p{
+    color: #514949;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+    color: #E7332B;
+}
+a:hover{
+    color: #e14941cf;
+}
+/* .btn-sect{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    text-align: center;
+} */
+.btn{
+    width: 200px;
+    height: 50px;
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+}
+.red-btn{
+    background: #E7332B;
+    color: white;
+    border: #E7332B;
+}
+.red-btn:hover{
+    background: #fff;
+    color: #E7332B;
+    border: 1.5px solid #E7332B;
+}
+.outline-btn{
+    background: #fff;
+    color: #E7332B;
+    border: 1.5px solid #E7332B;
+    width: 220px;
+}
+.outline-btn:hover{
+    background: #E7332B;
+    color: white;
+    border: #E7332B;
+}
+
+/* programs section */
+.programs{
+    padding-top: 130px;
+}
+.prog-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.prog-container h3{
+    color: #E7332B;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.prog-container p{
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 40px;
+    height: 180px;
+}
+.prog-card-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.prog{
+    max-width: 450px;
+    position: relative;
+}
+.prog img{
+    display: block;
+    width: 100%;
+}
+.left-cloud{
+    margin: -70px 0 40px -90px;
+    position: absolute;
+    z-index: -1;
+}
+.right-cloud{
+    margin: -70px 0 40px 90px;
+    position: absolute;
+    z-index: -1;
+}
+.prog-card{
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    height: 500px;
+    padding: 25px;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #FFFAFA;
+    margin: 0 20px 0 20px;
+}
+.prog-card img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.card-content p{
+    font-size: 15px;
+    max-height: 200px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+/* footer */
+
+footer{
+    margin: 100px 30px 0 30px;
+}
+
+.footer-container{
+    display: flex;
+}
+.footer-contents{
+    width: max-content;
+    padding-left: 230px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.footer-contents a{
+    margin-bottom: 20px;
+}
+.footer-contents p{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.footer-contents h4{
+    margin: 0 0 10px 0;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.hr{
+    width: 100%;
+}
+hr{
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    height: 150px;
+}
+.foot h4{
+    margin-top: 40px;
+}
