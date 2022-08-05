@@ -201,3 +201,34 @@ hr{
 .foot h4{
     margin-top: 40px;
 }
+
+/* smaller screens */
+@media only screen and (max-width:600px) {
+    .btn{
+        margin-bottom: 40px;
+    }
+    .prog-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .prog-card{
+        margin: 0 20px 20px 0;
+    }
+    footer{
+    margin: 100px 0px 0 0px;
+}
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container div{
+        text-align: center;
+        height:  150px;
+    }
+    .footer-contents{ 
+        width: 500px;
+        margin: auto;
+        margin-top: ;
+        padding: 0;
+    }
+}
